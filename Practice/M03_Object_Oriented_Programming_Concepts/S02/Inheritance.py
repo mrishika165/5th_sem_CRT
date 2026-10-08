@@ -29,15 +29,29 @@
 
 
 #Multiple 
-class A:
-    def display(self):
-        print("class A display")
-class B:
-    def display1(self):
-        print("hoi hoiii")
-class C(B,A):
-    def display2(self):
-        print("xcvgbhnj")
-c = C()
-c.display()
+# class A:
+#     def display(self):
+#         print("class A display")
+# class B:
+#     def display1(self):
+#         print("hoi hoiii")
+# class C(B,A):
+#     def display2(self):
+#         print("xcvgbhnj")
+# c = C()
+# c.display()
 
+
+
+class Animal:
+    def walk(self):
+        print("Animal can sleep")
+    def sleep(self):
+        print("Animal can sleep")
+class Cat(Animal):
+    def speak(self):
+        print("Meow Meow")
+cat1 = Cat()
+cat1.walk()
+cat1.sleep()
+cat1.speak()

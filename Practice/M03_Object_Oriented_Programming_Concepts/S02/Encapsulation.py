@@ -25,3 +25,10 @@
 # b.display()
 
 
+class Student:
+    def __init__(self,name,age):
+        self.name = name 
+        self.__age = age #private variable
+        print(self.__age)
+s1 = Student("Rishi",19)
+print(s1.name)
